@@ -1,0 +1,48 @@
+/* ダークモードの設定 */
+body {
+  font-family: monospace;
+  background: #121212;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 30px;
+}
+
+textarea {
+  font-size: 24px;
+  width: 80%;  /* 入力欄を横に広く */
+  height: 150px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #333;
+  color: #fff;
+  border: 1px solid #444;
+  resize: none;
+}
+
+#output {
+  white-space: pre;
+  background: #222;
+  display: inline-block;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #444;
+  font-size: 18px;
+  color: #fff;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #555;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background: #888;
+  cursor: pointer;
+}
